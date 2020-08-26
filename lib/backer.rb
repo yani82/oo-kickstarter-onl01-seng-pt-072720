@@ -6,7 +6,7 @@ class Backer
   
   def initialize(name) 
     @@backed_projects = backed_projects
-    @@backed_projects << self 
+    backed_projects << self 
   end
   
   def backed_project()
