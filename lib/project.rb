@@ -7,6 +7,10 @@ class Project
     @@all << self 
   end
   
+  def add_backer()
+    Project
+  end 
+  
 end
   
   
