@@ -8,7 +8,7 @@ class Project
   end
   
   def add_backer()
-    Project
+    Backer 
   end 
   
 end
