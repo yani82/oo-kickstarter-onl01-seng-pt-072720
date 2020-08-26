@@ -10,7 +10,7 @@ class Backer
   end
   
   def backed_project()
-    Project.all.
+    Project
   end 
   
 end
